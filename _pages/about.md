@@ -1,56 +1,70 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a physicist with a master’s degree in Geophysics, currently pursuing a PhD in Geosciences at the University of Texas at Dallas. My research focuses on integrating artificial intelligence into seismology, particularly to address challenges in earthquake source characterization and the assessment of risks related to induced seismicity. I have professional experience as a seismic analyst for the Colombian Seismic Network and as a seismologist in the energy industry, where I contributed technical expertise to designing local seismic networks, developing data quality control protocols, and interpreting induced seismicity.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+# Short CV
 
-A data-driven personal website
+**Education**
+- **2024** PhD Candidate in Geoscience, [The University of Texas at Dallas](https://www.utdallas.edu/)
+- **2020** M.Sc. in Earth Sciences, Geophysics, [Universidad Nacional de Colombia](https://unal.edu.co/)
+- **2019** B.S. in Physics, [Universidad de Antioquia](https://www.udea.edu.co/wps/portal/udea/web/inicio)
+
+**Professional Experience**
+- **2023** Seismologist LatAM, [ESG Solutions](https://www.esgsolutions.com/)
+- **2021–2023** Seismologist, contributing to [Ecopetrol Seismology projects](https://www.ecopetrol.com.co/wps/portal/Home/en)
+- **2019–2021** Seismic Analyst, [Colombian National Seismic Network](https://www.sgc.gov.co/sismos)
+
+**Academic Experience**
+- **2024** Graduate Teaching Assistant, [The University of Texas at Dallas](https://www.utdallas.edu/)
+- **2021** Graduate Teaching Assistant, [Universidad Nacional de Colombia](https://unal.edu.co/)
+- **2018–2019** Undergraduate Teaching Assistant, [Universidad Nacional de Colombia](https://unal.edu.co/)
+
+My story
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**When I Learned to Crawl in the World of Science**:  
+I graduated in Physics from the [Universidad de Antioquia](https://www.udea.edu.co/wps/portal/udea/web/inicio), one of the top three universities in Colombia. It has a very strong physics program, where I built a solid foundation in mathematics and programming.  
+I still remember my undergraduate colleagues with great appreciation, especially [Jeferson Colorado](https://www.linkedin.com/in/jeferson-arboleda-colorado25/) and [Johan Vargas](https://www.linkedin.com/in/jarbey-vargas/), who are both now working in the data science world. And  of course, [Carlos Toro](https://carlosatoroc.github.io/), a physicist/pure mathematician in the academic world, and still now the most humble and smartest guy I have ever met in my life.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+**My first steps in Geoscience World**: 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Everything changed when I took a Geophysics elective with Professor [Gloria Moncayo](https://www.researchgate.net/profile/Gloria-Moncayo-2). That course strongly motivated me to become a geophysicist.  
+During my last semester as a physics student, I decided to move to Bogotá and do an academic exchange at the [Universidad Nacional de Colombia](https://unal.edu.co/) (UNAL), which has the strongest geophysics program in the country. There, I worked with Professor [Carlos Vargas](https://scholar.google.com/citations?user=XP2-qXUAAAAJ&hl=es). He and the UNAL research team welcomed and trained me in an incredible way: [Juan Manuel Solano](https://www.linkedin.com/in/jmsolanof/), [Nicolas Pinzon](https://www.linkedin.com/in/nicol%C3%A1s-pinz%C3%B3n-matap%C3%AD-64b430172/), [Carla Lagardere](https://www.linkedin.com/in/carla-lagard%C3%A8re-933283221/), and [Sebastian Gomez Alba](https://www.linkedin.com/in/sebastian-gomez-alba-a0747169/). All of them are currently working in different areas of Geoscience.  
+I also met Adolfo, Sandra, Lindsay, and many other wonderful people who made my life in Bogotá happier, both personally and professionally.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+---
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**My First Steps as a Seismologist:**
 
-**Markdown generator**
+My experience with the UNAL research team provided incredible training, especially working with software such as SEISAN and SeisComP. Thanks to that preparation, I gained the skills necessary to be accepted as a Seismic Analyst at the [Colombian National Seismic Network](https://www.sgc.gov.co/sismos).  
+For me, it was one of the best places to begin a career in seismology. I processed thousands of earthquake signals triggered by crustal faults, subduction zones, volcanoes, and even human-induced seismicity.  
+Although it was a professional work environment, there was still room for research. My perspective expanded tremendously, and I still maintain connections with many of my colleagues — as friends, research collaborators, and even current coworkers. The geoscience world is small.  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+When I started, I had the opportunity to work with: [Daniel Martinez](https://www.linkedin.com/in/daniel-mart%C3%ADnez-75568393/), [Oscar Suarez](https://www.linkedin.com/in/oscar-daniel-suarez-mejia-7a2653173/), [Adolfo Robayo](https://www.linkedin.com/in/adolfo-david-robayo-robayo-02a515188/), [Leonardo Mateus](https://www.linkedin.com/in/lsmateusb/), [Angel Agudelo](https://www.linkedin.com/in/angel-daniel-agudelo-gonzalez/), [Daniel Siervo](https://www.linkedin.com/in/dsiervo/), [Esteban Poveda](https://www.linkedin.com/in/esteban-poveda-ab55a758/), [Edwin Mayorga](https://www.linkedin.com/in/edwin-mayorga-lopez-1647a7ab/), In my later stage, I also worked with: [Emmanuel Guzman](https://www.linkedin.com/in/emmanuel-guzm%C3%A1n-vitola-b6581b234/), [Laura Mercado](https://www.linkedin.com/in/laura-mercado-sol%C3%B3rzano-2082171a9/), [Geronimo Valencia](https://www.linkedin.com/in/geronimo-valencia-hoyos-824478192/), [Mariana Vergara](https://www.researchgate.net/publication/373899390_Variabilidad_del_estado_de_esfuerzos_en_la_region_del_volcan_Galeras_Colombia_a_partir_del_analisis_de_mecanismos_focales_de_sismos_volcanotectonicos), [Sebastian Gomez](https://www.linkedin.com/in/juan-sebasti%C3%A1n-g%C3%B3mez-camacho-4419841a5/), [Juan Soriano](https://www.linkedin.com/in/jssorianop/). 
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+I could mention many more names, but my main purpose is to express my immense gratitude to all of them.
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+---
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Deepening My Path in Seismology: My Master’s in Geophysics**
+
+During my first professional experience as a seismic analyst, I realized I needed to strengthen my research capacity. At the same time, the unexpected and quiet period of COVID-19 — together with this crazy (and brilliant) guy [Daniel Siervo](https://www.linkedin.com/in/dsiervo/) — pushed me into the world of Artificial Intelligence.  
+I began taking several AI courses on Coursera, including the [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/TPV57STD456C), [TensorFlow](https://www.coursera.org/account/accomplishments/certificate/G53DLYL8V8LG), and others. That period completely reshaped the way I approached problems, allowing me to connect seismology with machine learning.  
+With a clear goal of doing research at the intersection of seismology and AI, many colleagues recommended that I reach out to [German Prieto](https://gaprieto.com/) to be my advisor during my Master’s program in Geophysics. That decision was transformative.  
+Together with Prof. German and [Daniel Siervo](https://www.linkedin.com/in/dsiervo/), we developed the [first automatic earthquake catalog in Colombia using AI](https://gaprieto.com/wp-content/uploads/2024/05/gprieto_24c.pdf), which later became my first publication in *Seismological Research Letters (SRL)*.  
+I am deeply grateful to Prof. German for his constant support, brilliant ideas, and guidance — not only academically, but also in helping me navigate professional decisions.  
+During this time, I also met [Sofia Cubillos](https://erlweb.mit.edu/people/sofia-cubillos/), a great friend and colleague. I am certain our paths will continue to cross in the scientific world.
+
+---
+
+**Welcome to the Energy Industry**
+
+...
