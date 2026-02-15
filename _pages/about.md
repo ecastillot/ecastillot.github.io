@@ -7,7 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a physicist with a master’s degree in Geophysics, currently pursuing a PhD in Geosciences at the University of Texas at Dallas. My research focuses on integrating artificial intelligence into seismology, particularly to address challenges in earthquake source characterization and the assessment of risks related to induced seismicity. I have professional experience as a seismic analyst for the Colombian Seismic Network and as a seismologist in the energy industry, where I contributed technical expertise to designing local seismic networks, processing seismic signals, developing data quality control protocols, and interpreting induced seismicity.
+I am a physicist with a master’s degree in Geophysics, currently pursuing a PhD in Geosciences at the University of Texas at Dallas. My research focuses on integrating artificial intelligence into seismology, particularly to address challenges in earthquake source characterization and the assessment of risks related to induced seismicity.
+
+ I have professional experience as a seismic analyst for the Colombian Seismic Network and as a seismologist in the energy industry, where I contributed technical expertise to designing local seismic networks, processing seismic signals, developing data quality control protocols, and interpreting induced seismicity.
 
 # Short CV
 
