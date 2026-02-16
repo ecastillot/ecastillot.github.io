@@ -57,39 +57,38 @@ Geophysicist and PhD candidate with 6+ years of experience in seismic monitoring
 **2021 Graduate Teaching Assistant, [Universidad Nacional de Colombia](https://unal.edu.co/)**
 
 **2018–2019 Undergraduate Teaching Assistant, [Universidad Nacional de Colombia](https://unal.edu.co/)**
-
+</section>
 </div>
 
 <div class="cv-blocks">
-  <section class="cv-block" markdown="1">
-    ## Courses & Professional Development
-    * Oil and Gas Industry Operations and Markets – Duke University (Coursera)
-    * Unsupervised Learning, Recommenders, Reinforcement Learning – Stanford Online (Coursera)
-    * Deep Learning Specialization – DeepLearning.AI (Coursera)
-      * Sequence Models  
-      * Convolutional Neural Networks  
-      * Structuring Machine Learning Projects  
-      * Improving Deep Neural Networks: Hyperparameter Tuning  
-      * Neural Networks and Deep Learning  
-    * TensorFlow Developer – DeepLearning.AI (Coursera)
-    * Fundamentals of Scalable Data Science – IBM (Coursera)
-  </section>
-</div>
 
-<div class="cv-blocks">
-  <section class="cv-block" markdown="1">
-    ## Awards & Honors
-    * 08/2025 – James L. Carter Fellowship Scholarship, University of Texas at Dallas  
-    * 05/2025 – Travel Grant, CRESCENT Machine Learning Technical Short Course, Seattle, WA  
-    * 04/2025 – SEG/Chevron Student Leadership Symposium Travel Grant, IMAGE Conference  
-    * 04/2025 – Vice President, SEG Student Chapter, UT Dallas  
-    * 08/2024–12/2025 – UTD Graduate Teaching Scholarship  
-    * 03/2024 – NSM McDermott PhD Admission Fellowship ($5,000 USD)  
-    * 03/2023 – Meritorious Distinction, M.Sc., National University of Colombia  
-    * 01/2021 – 100% Academic Fee Waiver Scholarship (M.Sc.)  
-    * 10/2020 – Undergraduate Teaching Assistant Scholarship  
-    * 10/2019 – Highest Academic Semester Honors, University of Antioquia  
-    * 05/2019 – First Place, Seventh Symposium of Exact and Natural Sciences, University of Antioquia  
-  </section>
+<section class="cv-block" markdown="1">
+## Awards & Honors
+  * 08/2025 – James L. Carter Fellowship Scholarship, University of Texas at Dallas  
+  * 05/2025 – Travel Grant, CRESCENT Machine Learning Technical Short Course, Seattle, WA  
+  * 04/2025 – SEG/Chevron Student Leadership Symposium Travel Grant, IMAGE Conference  
+  * 04/2025 – Vice President, SEG Student Chapter, UT Dallas  
+  * 08/2024–12/2025 – UTD Graduate Teaching Scholarship  
+  * 03/2024 – NSM McDermott PhD Admission Fellowship ($5,000 USD)  
+  * 03/2023 – Meritorious Distinction, M.Sc., National University of Colombia  
+  * 01/2021 – 100% Academic Fee Waiver Scholarship (M.Sc.)  
+  * 10/2020 – Undergraduate Teaching Assistant Scholarship  
+  * 10/2019 – Highest Academic Semester Honors, University of Antioquia  
+  * 05/2019 – First Place, Seventh Symposium of Exact and Natural Sciences, University of Antioquia 
+</section>
+
+<section class="cv-block" markdown="1">
+## Courses & Certificates
+  * Oil and Gas Industry Operations and Markets – Duke University (Coursera)
+  * Unsupervised Learning, Recommenders, Reinforcement Learning – Stanford Online (Coursera)
+  * Deep Learning Specialization – DeepLearning.AI (Coursera)
+    * Sequence Models  
+    * Convolutional Neural Networks  
+    * Structuring Machine Learning Projects  
+    * Improving Deep Neural Networks: Hyperparameter Tuning  
+    * Neural Networks and Deep Learning  
+  * TensorFlow Developer – DeepLearning.AI (Coursera)
+  * Fundamentals of Scalable Data Science – IBM (Coursera)
+</section>
 
 </div>
