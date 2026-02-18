@@ -3,6 +3,8 @@ layout: archive
 title: "Summary"
 permalink: /cv/
 author_profile: true
+description: "Emmanuel Castillo CV– Seismologist and PhD candidate in Geosciences. Expert in seismology, induced seismicity, earthquake source characterization, and AI applications in geophysics."
+keywords: "Emmanuel Castillo, Seismologist, Induced Seismicity, Earthquake Source, Geophysics, AI in Geosciences, Machine Learning, Seismic Networks"
 redirect_from:
   - /resume
 ---

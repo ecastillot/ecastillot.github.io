@@ -2,6 +2,8 @@
 permalink: /
 title: "About me"
 author_profile: true
+description: "Emmanuel Castillo – Seismologist and PhD candidate in Geosciences. Expert in seismology, induced seismicity, earthquake source characterization, and AI applications in geophysics."
+keywords: "Emmanuel Castillo, Seismologist, Induced Seismicity, Earthquake Source, Geophysics, AI in Geosciences, Machine Learning, Seismic Networks"
 redirect_from: 
   - /about/
   - /about.html
@@ -10,6 +12,7 @@ redirect_from:
 I am a physicist with a master’s degree in Geophysics, currently pursuing a PhD in Geosciences at the University of Texas at Dallas. My research focuses on integrating artificial intelligence into seismology, particularly to address challenges in earthquake source characterization and the assessment of risks related to induced seismicity.
 
  I have professional experience as a seismic analyst for the Colombian Seismic Network and as a seismologist in the energy industry, where I contributed technical expertise to designing local seismic networks, processing seismic signals, developing data quality control protocols, and interpreting induced seismicity.
+ 
 
 # Short CV
 
