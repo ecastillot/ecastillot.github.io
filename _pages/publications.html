@@ -6,31 +6,104 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">
+    You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
-{% include base_path %}
+<div class="pub-row">
+  <div class="pub-image-container">
+    <div class="image-rotator">
+      
+      <img src="/assets/images/pubs/2026_a/fig_1.png" 
+           data-caption="Figure 1: Seismicity in the Culberson-Mentone Earthquake Zone (CMEZ), Delaware Basin. (a) Map of earthquakes from the TexNet High-Resolution Catalog colored by depth, showing seismic stations, basement contours defining regions R1–R3, sonic logs, and the 2020 Mw 4.9 Mentone and 2022 Mw 5.4 Coalson earthquakes. (b–d) Spatial distribution of hydrocarbon production, hydraulic fracturing, and saltwater disposal wells. (e) Kernel density plot of operational depth distribution across the basin.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_2.png" 
+           data-caption="Figure 2: Sonic velocity profiles from wells in the Culberson-Mentone Earthquake Zone (CMEZ), showing P-wave velocity variations across geological formations and log groups (0–4) from west to east. Zones A–D reflect velocity contrasts. Red line: median Vp model. Blue dashed line: DB1D velocity model.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_3.png"
+           data-caption="Figure 3: High-resolution earthquake distribution in the Culberson-Mentone Earthquake Zone (CMEZ) from 2017 to 2024 for events with magnitude greater than 2. Includes the 2020 Mw 4.9 Mentone and the 2022–2023 Mw 5.4 and Mw 5.2 Coalson earthquakes.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_4.png"
+           data-caption="Figure 4: (a) Box plots of S–P travel-time differences for earthquakes within 3 km of stations in the CMEZ, ordered west to east. (b–d) Normalized Vp/Vs ratio distributions at selected stations for radii between 5 and 30 km.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_5.png"
+           data-caption="Figure 5: Estimated seismicity depth ranges at CMEZ stations. Blue line: DB1D P-wave velocity model. Red line: station-specific model. Shaded polygons show central 50% depth ranges derived from S–P times and Vp/Vs ratios.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_6.png"
+           data-caption="Figure 6: Cross section of seismicity in the Culberson–Mentone Earthquake Zone (CMEZ). Gray points: TexNet High-Resolution Catalog. Colored points: S–P High-Resolution Catalog. Red dashed line: basement depth. Black line: surface elevation.">
+    
+      <img src="/assets/images/pubs/2026_a/fig_7.png"
+           data-caption="Figure 7: Earthquake depths over time by region in the CMEZ. (a) S–P High-Resolution Catalog. (b) TexNet High-Resolution Catalog. Shaded bands show 90-day interquartile depth ranges. Red dashed line marks depth stabilization.">
+    
+    </div>
+    <div class="zoom-overlay">🔍 Click to Zoom</div>
+  </div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <div class="pub-info">
+    <p class="venue">Emmanuel Castillo, Nadine Ushakov, Alexandros Savvaidis; Sensitivity Analysis of Earthquake Depths in the Culberson–Mentone Earthquake Zone, Delaware Basin. <em>Seismological Research Letters</em> 2026; doi: 
+      <a href="https://doi.org/10.1785/0220250288" target="_blank" rel="noopener noreferrer">
+        https://doi.org/10.1785/0220250288
+    </p>
+    <div class="links">
+      <a href="https://www.researchgate.net/publication/400031252_Sensitivity_Analysis_of_Earthquake_Depths_in_the_Culberson-Mentone_Earthquake_Zone_Delaware_Basin" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+      <a href="https://huggingface.co/datasets/ecastillot/CMEZ-SPHighResCatalog" class="btn" target="_blank" rel="noopener noreferrer">Dataset</a>
+      <a href="https://github.com/ecastillot/CMEZ-SPHighResCatalog" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
+
+
+<div class="pub-row">
+  <div class="pub-image-container">
+    <div class="image-rotator">
+
+      <img src="/assets/images/pubs/2024_a/fig_1.png" 
+           data-caption="Figure 1: Permanent Seismic Network: The Colombian Seismic Network (CM) with red triangles. Temporary Seismic Networks: 1. The Middle Magdalena seismic array (VMM) with yellow triangles. 2. The CARibbean-Mérida Andes seismic array (CARMA) with magenta triangles. Isolated stations: 1. MAP in Malpelo Island. 2. PRV, RNCC, SAIC and SERC in the San Andres Archipielago. Other highlighted stations are referenced in the analysis. Mainshocks: 25/11/2018 - Providencia M<sub>w</sub> 6.0; 24/12/2019 - Mesetas M<sub>w</sub> 6.0; 22/03/2021 - Puerto Gaitán M<sub>w</sub> 5.1. WC: Western Cordillera, CC: Central Cordillera, EC: Eastern Cordillera, MC: Cordillera de Mérida.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_2.png" 
+           data-caption="Figure 2: Examples of phase picking results. Upper figure shows 20 minutes of aftershocks 1.28 hours after the Mesetas main shock (M<sub>w</sub> 6.0) on 2019-12-24T19:03:52 UTC recorded by URMC station, the closest station to the epicenter. Lower figure shows one day of data from a station with digitizer issues. Colored vertical lines represent arrivals picked by EQTransformer, PhaseNet, and manual analysts. Cold colors: P picks; warm colors: S picks. More intense color indicates higher probability.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_3.png" 
+           data-caption="Figure 3: Comparison by station of number of picks between automatic and manual pickers over one year (12/2019–01/2021). Circles and crosses represent P and S phases, respectively. Color bar represents number of nearby stations within 200 km; marker size is proportional to distance to the closest station.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_4.png" 
+           data-caption="Figure 4: Confusion matrix for P and S picks for 12/2019-01/2021. PNET and EQT use initial probability thresholds; other thresholds are shown for reference. Black-bordered rectangles: model vs SGC database; red-bordered rectangles: best scenario to verify pick veracity.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_5.png" 
+           data-caption="Figure 5: GaMMA Phase Association on December 24, 2019. Stars in circles: events by origin time and epicentral distance (lat 3.45, lon -74.19, Mesetas). Colored circles: associated phases; uncolored circles: unassociated. Around 19:00, associations correspond to aftershocks of the Mesetas M<sub>w</sub> 6.0 main earthquake.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_6.png" 
+           data-caption="Figure 6: Number of phases and association percentage as function of EQTransformer probabilities for the study period (01/2016–09/2022).">
+    
+      <img src="/assets/images/pubs/2024_a/fig_7.png" 
+           data-caption="Figure 7: GaMMA seismic catalog. (a) Plan view of seismicity. (b) Histogram of events by month. (c) Magnitudes over time. (d) Number of stations used for processing over time.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_8.png" 
+           data-caption="Figure 8: NLLoc seismic catalog. (a) Plan view. (b) Histogram of events by month. (c) Magnitudes over time.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_9.png" 
+           data-caption="Figure 9: NLLoc seismic catalog showing crustal faults, clusters of seismicity, and deeper tectonic structures. Dashed circles: seismic clusters; dashed rectangles: seismic profiles. (a) Plan view for depths ≤30 km. (b) Plan view for depths ≥50 km.">
+    
+      <img src="/assets/images/pubs/2024_a/fig_10.png" 
+           data-caption="Figure 10: Seismic profiles painted in Fig. 9 using the same depth color bar. (a) Profile A-A’ showing Romeral Fault System, Mesetas, and Puerto Gaitán aftershocks. (b) Profile B-B’ showing southern and northern slabs of Cauca and Bucaramanga segments, Cucunubá cluster. (c) Profile C-C’ showing Benioff zone in Nazca plate. (d) Profile D-D’ showing Benioff zone in Caribbean plate.">
+    
+    </div>
+    <div class="zoom-overlay">🔍 Click to Zoom</div>
+  </div>
+
+  <div class="pub-info">
+    <p class="venue">Emmanuel Castillo, Daniel Siervo, Germán A. Prieto; Colombian Seismic Monitoring Using Advanced Machine‐Learning Algorithms. ,<em>Seismological Research Letters 2024</em> ; 95 (5): 2971–2985. doi: 
+      <a href="https://doi.org/10.1785/0220240036" target="_blank" rel="noopener noreferrer">
+        https://doi.org/10.1785/0220240036
+    </p>
+    <div class="links">
+      <a href="https://www.researchgate.net/publication/380652246_Colombian_Seismic_Monitoring_Using_Advanced_Machine-Learning_Algorithms" class="btn" target="_blank" rel="noopener noreferrer">PDF</a>
+      <a href="https://www.researchgate.net/publication/382994043_Dataset_Colombian_Seismic_Monitoring_Using_Advanced_Machine-Learning_Algorithmspdf" class="btn" target="_blank" rel="noopener noreferrer">Dataset</a>
+      <a href="https://github.com/ecastillot/SeisMonitor/tree/master" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+    </div>
+  </div>
+</div>
 
 

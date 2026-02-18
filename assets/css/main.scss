@@ -115,3 +115,185 @@
   font-size: inherit;     /* match normal font size */
   padding: 0;             /* optional: remove extra padding */
 }
+
+/* =========================
+   Publications
+========================= */
+
+.wordwrap {
+  margin-bottom: 20px; /* space below Google Scholar text */
+}
+
+.pub-row {
+  display: flex;
+  flex-wrap: nowrap;       /* keep image and text in same row */
+  gap: 30px;
+  margin-bottom: 50px;
+  align-items: flex-start; /* top-align image and text */
+}
+
+.pub-info {
+  flex: 1;               /* take remaining space next to image */
+  min-width: 0;          /* prevent overflow issues with long text */
+}
+
+@media (max-width: 700px) {
+  .pub-row {
+    flex-wrap: wrap;     /* allow stacking on small screens */
+  }
+  .pub-info {
+    flex: 1 1 100%;      /* full width under the image */
+  }
+}
+
+.pub-image-container {
+  width: 330px;       /* fixed width */
+  height: 200px;      /* fixed height */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  position: relative;
+}
+
+.image-rotator img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or contain if you want no cropping */
+  position: absolute;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 1s ease-in-out;
+}
+
+.pub-image-container:hover .image-rotator img.active,
+.pub-image-container:hover .image-rotator img {
+  transform: scale(1.05);  /* Slight zoom on hover */
+}
+.image-rotator img:nth-child(1) { animation: cycle 12s infinite; }
+.image-rotator img:nth-child(2) { animation: cycle 12s infinite 4s; }
+.image-rotator img:nth-child(3) { animation: cycle 12s infinite 8s; }
+
+@keyframes cycle {
+  0%, 30% { opacity: 1; }
+  33%, 100% { opacity: 0; }
+}
+
+.zoom-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 6px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.pub-image-container:hover .zoom-overlay {
+  opacity: 1;
+}
+
+.pub-info h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.abstract {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== Lightbox Modal (Bulletproof Version) ===== */
+
+.modal {
+  display: none;
+  position: fixed !important;
+  inset: 0 !important;              /* replaces top/left/width/height */
+  width: 100vw !important;
+  height: 100vh !important;
+
+  background: rgba(0, 0, 0, 0.95);
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999999 !important;       /* above masthead, nav, everything */
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow: auto;
+
+  /* break any stacking context issues */
+  transform: none !important;
+}
+
+.modal-content {
+  max-width: 92vw;
+  max-height: 88vh;
+  object-fit: contain;
+}
+
+.close {
+  position: fixed !important;
+  top: 25px;
+  right: 40px;
+  font-size: 42px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000000 !important;
+}
+
+.close:hover {
+  color: #ccc;
+}
+
+.arrow {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1000000;
+  user-select: none;
+}
+
+.arrow.left {
+  left: 30px;
+}
+
+.arrow.right {
+  right: 30px;
+}
+
+.arrow:hover {
+  color: #ccc;
+}
+
+.lightbox-content-wrapper {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  max-width: 90vw;
+  max-height: 85vh;
+}
+
+.modal-content {
+  max-width: 60vw;
+  max-height: 85vh;
+  object-fit: contain;
+}
+
+.caption-panel {
+  width: 300px;
+  max-height: 85vh;
+  overflow-y: auto;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
